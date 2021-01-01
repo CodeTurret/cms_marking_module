@@ -8,10 +8,10 @@
 </head>
 <body>
 
-<section class="signup-form" >
+<!-- <section class="signup-form" > -->
 	
 	<div class="container" >
-	<form action="signup.inc.php" method="post" >
+	<form action="includes/signup.inc.php" method="post" >
 		<h2>Sign Up</h2>
 		<div class="form-group">
 		<input type="text" name="name" placeholder="Full Name" class="form-control"><br>
@@ -32,6 +32,6 @@
 		<button type="submit" name="submit" class="btn">Sign Up</button>
 	</form>
 	</div>
-</section>
-</body>
+<!-- </section>
+ --></body>
 </html>
